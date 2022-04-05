@@ -141,10 +141,10 @@ select:focus {
    text-align: left;
 }
 #wb_Text1 {
-   box-sizing: border-box;
-   display: block;
+   display: inline-block;
+   height: 36px;
    margin: 0;
-   width: 100%;
+   width: 497px;
 }
 #Editbox1 {
    background-color: #FFFFFF;
@@ -193,7 +193,7 @@ select:focus {
    margin-left: auto;
    margin-right: auto;
    max-width: 1024px;
-   padding: 50px 0px 0px 0px;
+   padding: 40px 0px 0px 0px;
 }
 #LayoutGrid3 > .col-1,
 #LayoutGrid3 > .col-2,
@@ -382,9 +382,9 @@ select:focus {
 }
 #wb_Text5 {
    display: inline-block;
-   height: 29px;
+   height: 27px;
    margin: 0;
-   width: 181px;
+   width: 171px;
 }
 #wb_LayoutGrid4 {
    background-color: transparent;
@@ -504,8 +504,7 @@ select:focus {
    margin-left: 0;
    margin-right: 0;
 }
-#LayoutGrid2 > .row > .col-1,
-#LayoutGrid2 > .row > .col-2 {
+#LayoutGrid2 > .row > .col-1 {
    box-sizing: border-box;
    font-size: 0px;
    min-height: 1px;
@@ -513,8 +512,7 @@ select:focus {
    padding-right: 0px;
    position: relative;
 }
-#LayoutGrid2 > .row > .col-1,
-#LayoutGrid2 > .row > .col-2 {
+#LayoutGrid2 > .row > .col-1 {
    float: left;
 }
 #LayoutGrid2 > .row > .col-1 {
@@ -524,13 +522,6 @@ select:focus {
    border-radius: 0px;
    text-align: left;
    width: 100%;
-}
-#LayoutGrid2 > .row > .col-2 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: right;
 }
 #LayoutGrid2:before,
 #LayoutGrid2:after,
@@ -544,8 +535,7 @@ select:focus {
    clear: both;
 }
 @media (max-width: 482px) {
-#LayoutGrid2 > .row > .col-1,
-#LayoutGrid2 > .row > .col-2 {
+#LayoutGrid2 > .row > .col-1 {
    float: none;
    width: 100%  !important;
 }
@@ -826,7 +816,7 @@ select:focus {
 }
 #wb_Text2 {
    display: inline-block;
-   height: 20px;
+   height: 18px;
    margin: 0;
    width: 179px;
 }
