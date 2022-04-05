@@ -317,7 +317,7 @@ select:focus {
    border: 0px solid #CCCCCC;
    border-radius: 4px;
    box-sizing: border-box;
-   color: #FFD700;
+   color: #FFFF00;
    font-family: "Open Sans";
    font-size: 37px;
    font-style: normal;
@@ -892,19 +892,4 @@ select:focus {
    float: none;
    width: 100%  !important;
 }
-}
-#Button1 {
-   -webkit-appearance: none;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-size: 13px;
-   font-style: normal;
-   font-weight: normal;
-   margin: 0;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
 }

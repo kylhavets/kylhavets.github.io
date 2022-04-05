@@ -8,11 +8,28 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
 <link href="калькулятори.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      $("#Editbox2, #Editbox1").change(function()
+      {
+         if ($('#Editbox2').val().length == 0)
+         {
+            $('#Resultat').val(`0.00%`);
+         }
+         if ($('#Editbox2').val().length != 0)
+         {
+            $('#Resultat').val((($('#Editbox1').val()/$('#Editbox2').val())*100).toFixed(2)+`%`);
+         }
+      });
+      $("#Editbox2").trigger('change');
+   });
+</script>
 </head>
 <body>
    <div id="container">
       <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:15px;top:589px;margin:0;border-width:0;z-index:250"></a>
-      <input type="submit" id="Button1" onclick="$('#Resultat').val((($('#Editbox1').val()/$('#Editbox2').val())*100).toFixed(2)+`%`);return false;" name="" value="Submit" style="position:absolute;left:296px;top:492px;width:160px;height:51px;z-index:34;">
    </div>
    <div id="wb_LayoutGrid8">
       <div id="LayoutGrid8">
