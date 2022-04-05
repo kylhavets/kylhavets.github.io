@@ -20,7 +20,7 @@
          }
          if ($('#Editbox2').val().length != 0)
          {
-            $('#Resultat').val((($('#Editbox1').val()/$('#Editbox2').val())*100).toFixed(2)+`%`);
+            $('#Resultat').val(((Number($('#Editbox1').val())/Number($('#Editbox2').val()))*Number(100)).toFixed(2)+`%`);
          }
       });
       $("#Editbox2").trigger('change');
@@ -34,15 +34,17 @@
    <div id="wb_LayoutGrid8">
       <div id="LayoutGrid8">
          <div class="col-1">
-            <div id="wb_LayoutGrid9">
-               <div id="LayoutGrid9">
-                  <div class="row">
-                     <div class="col-1">
-                        <div id="wb_Text5">
-                           <span style="background-color:#31383E;color:#FFFFFF;font-family:'Open Sans';font-weight:700;font-size:24px;"> </span><span style="background-color:#31383E;color:#5E8CBF;font-family:'Open Sans';font-weight:700;font-size:24px;">PRO</span><span style="background-color:#31383E;color:#FFFFFF;font-family:'Open Sans';font-weight:700;font-size:24px;">CENT.INFO </span>
-                        </div>
-                        <div id="wb_Text2">
-                           <span style="color:#FFFFFF;font-family:'Open Sans';font-size:15px;">Онлайн калькулятор</span>
+            <div class="col-1-padding">
+               <div id="wb_LayoutGrid9">
+                  <div id="LayoutGrid9">
+                     <div class="row">
+                        <div class="col-1">
+                           <div id="wb_Text5">
+                              <span style="background-color:#31383E;color:#FFFFFF;font-family:'Open Sans';font-weight:700;font-size:21px;"> </span><span style="background-color:#31383E;color:#5E8CBF;font-family:'Open Sans';font-weight:700;font-size:21px;">PRO</span><span style="background-color:#31383E;color:#FFFFFF;font-family:'Open Sans';font-weight:700;font-size:21px;">CENT.INFO </span>
+                           </div>
+                           <div id="wb_Text2">
+                              <span style="color:#FFFFFF;font-family:'Open Sans';font-size:15px;">Онлайн калькулятор</span>
+                           </div>
                         </div>
                      </div>
                   </div>
@@ -111,7 +113,9 @@
                            <div id="wb_Text6">
                               <span style="color:#FFFFFF;font-family:'Open Sans';font-size:27px;">Результат:</span>
                            </div>
-                           <input type="text" id="Resultat" style="display:inline-block;width:176px;height:59px;z-index:11;" name="Resultat" value="" readonly autocomplete="off" spellcheck="false">
+                           <input type="text" id="Resultat" style="display:inline-block;width:248px;height:59px;z-index:11;" name="Resultat" value="" readonly autocomplete="off" spellcheck="false">
+                        </div>
+                        <div class="col-2">
                         </div>
                      </div>
                   </div>
@@ -133,6 +137,14 @@
                      </div>
                   </div>
                </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid10">
+      <div id="LayoutGrid10">
+         <div class="row">
+            <div class="col-1">
             </div>
          </div>
       </div>
