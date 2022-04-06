@@ -2,7 +2,7 @@ div#container {
    margin: 0 auto 0 auto;
    position: relative;
    text-align: left;
-   width: 1024px;
+   width: 960px;
 }
 body {
    background-color: #24292D;
@@ -56,11 +56,10 @@ select:focus {
    flex-wrap: wrap;
    margin-left: auto;
    margin-right: auto;
-   max-width: 1024px;
+   max-width: 960px;
    padding: 20px 0px 20px 0px;
 }
-#LayoutGrid8 > .col-1,
-#LayoutGrid8 > .col-2 {
+#LayoutGrid8 > .col-1 {
    box-sizing: border-box;
    font-size: 0px;
    min-height: 1px;
@@ -68,8 +67,7 @@ select:focus {
    padding-right: 0px;
    position: relative;
 }
-#LayoutGrid8 > .col-1,
-#LayoutGrid8 > .col-2 {
+#LayoutGrid8 > .col-1 {
    -webkit-flex: 0 0 auto;
    flex: 0 0 auto;
 }
@@ -99,30 +97,8 @@ select:focus {
    padding: 0px 0px 0px 15px;
    width: 100%;
 }
-#LayoutGrid8 > .col-2 {
-   -webkit-align-content: flex-start;
-   -webkit-align-items: flex-start;
-   -webkit-align-self: stretch;
-   -webkit-flex-wrap: wrap;
-   -webkit-justify-content: flex-start;
-   align-content: flex-start;
-   align-items: flex-start;
-   align-self: stretch;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   display: -webkit-flex;
-   display: flex;
-   flex-basis: 50%;
-   flex-wrap: wrap;
-   justify-content: flex-start;
-   max-width: 50%;
-   text-align: left;
-}
-@media (max-width: 960px) {
-#LayoutGrid8 > .col-1,
-#LayoutGrid8 > .col-2 {
+@media (max-width: 768px) {
+#LayoutGrid8 > .col-1 {
    -webkit-flex-basis: 100%  !important;
    flex-basis: 100%  !important;
    max-width: 100%  !important;
@@ -134,23 +110,23 @@ select:focus {
    border: 0px solid #000000;
    border-radius: 0px;
    margin: 0;
-   padding: 0px 0px 50px 0px;
+   padding: 0px 0px 40px 0px;
    text-align: left;
 }
 #wb_Text1 div {
    text-align: left;
 }
 #wb_Text1 {
-   display: inline-block;
-   height: 36px;
+   box-sizing: border-box;
+   display: block;
    margin: 0;
-   width: 497px;
+   width: 100%;
 }
 #Editbox1 {
    background-color: #FFFFFF;
    background-image: none;
    border: 0px solid transparent;
-   border-radius: 4px;
+   border-radius: 0px;
    box-sizing: border-box;
    color: #1E90FF;
    font-family: "Open Sans";
@@ -192,7 +168,7 @@ select:focus {
    flex-wrap: wrap;
    margin-left: auto;
    margin-right: auto;
-   max-width: 1024px;
+   max-width: 960px;
    padding: 40px 0px 0px 0px;
 }
 #LayoutGrid3 > .col-1,
@@ -284,7 +260,7 @@ select:focus {
    padding: 0px 0px 0px 15px;
    width: 100%;
 }
-@media (max-width: 960px) {
+@media (max-width: 768px) {
 #LayoutGrid3 > .col-1,
 #LayoutGrid3 > .col-2,
 #LayoutGrid3 > .col-3 {
@@ -297,7 +273,7 @@ select:focus {
    background-color: #FFFFFF;
    background-image: none;
    border: 0px solid transparent;
-   border-radius: 4px;
+   border-radius: 0px;
    box-sizing: border-box;
    color: #1E90FF;
    font-family: "Open Sans";
@@ -348,7 +324,7 @@ select:focus {
    display: inline-block;
    height: 36px;
    margin: 0px 0px 10px 0px;
-   width: 124px;
+   width: 154px;
 }
 #wb_Text4 {
    background-color: transparent;
@@ -366,7 +342,7 @@ select:focus {
    display: inline-block;
    height: 36px;
    margin: 0px 0px 10px 0px;
-   width: 85px;
+   width: 110px;
 }
 #wb_Text5 {
    background-color: transparent;
@@ -382,9 +358,9 @@ select:focus {
 }
 #wb_Text5 {
    display: inline-block;
-   height: 27px;
+   height: 25px;
    margin: 0;
-   width: 171px;
+   width: 162px;
 }
 #wb_LayoutGrid4 {
    background-color: transparent;
@@ -409,7 +385,7 @@ select:focus {
    flex-wrap: wrap;
    margin-left: auto;
    margin-right: auto;
-   max-width: 482px;
+   max-width: 373px;
    padding: 0px 0px 40px 0px;
 }
 #LayoutGrid4 > .col-1,
@@ -476,10 +452,6 @@ select:focus {
    max-width: 100%  !important;
 }
 }
-#Shape1 {
-   border-width: 0;
-   vertical-align: top;
-}
 #wb_LayoutGrid2 {
    background-color: transparent;
    background-image: none;
@@ -497,7 +469,7 @@ select:focus {
    box-sizing: border-box;
    margin-left: auto;
    margin-right: auto;
-   max-width: 482px;
+   max-width: 373px;
    padding: 0px 0px 40px 0px;
 }
 #LayoutGrid2 > .row {
@@ -557,7 +529,7 @@ select:focus {
    box-sizing: border-box;
    margin-left: auto;
    margin-right: auto;
-   max-width: 482px;
+   max-width: 373px;
    padding: 0;
 }
 #LayoutGrid6 > .row {
@@ -617,7 +589,6 @@ select:focus {
    box-sizing: border-box;
    margin-left: auto;
    margin-right: auto;
-   max-width: 241px;
    padding: 0;
 }
 #LayoutGrid1 > .row {
@@ -664,7 +635,7 @@ select:focus {
 #LayoutGrid1 .row:after {
    clear: both;
 }
-@media (max-width: 482px) {
+@media (max-width: 1920px) {
 #LayoutGrid1 > .row > .col-1,
 #LayoutGrid1 > .row > .col-2 {
    float: none;
@@ -688,7 +659,6 @@ select:focus {
    box-sizing: border-box;
    margin-left: auto;
    margin-right: auto;
-   max-width: 241px;
    padding: 0;
 }
 #LayoutGrid5 > .row {
@@ -735,69 +705,9 @@ select:focus {
 #LayoutGrid5 .row:after {
    clear: both;
 }
-@media (max-width: 482px) {
+@media (max-width: 1920px) {
 #LayoutGrid5 > .row > .col-1,
 #LayoutGrid5 > .row > .col-2 {
-   float: none;
-   width: 100%  !important;
-}
-}
-#wb_LayoutGrid7 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   clear: both;
-   display: table;
-   margin: 0;
-   position: relative;
-   table-layout: fixed;
-   text-align: center;
-   width: 100%;
-}
-#LayoutGrid7 {
-   box-sizing: border-box;
-   margin-left: auto;
-   margin-right: auto;
-   max-width: 482px;
-   padding: 0;
-}
-#LayoutGrid7 > .row {
-   margin-left: 0;
-   margin-right: 0;
-}
-#LayoutGrid7 > .row > .col-1 {
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-left: 0px;
-   padding-right: 0px;
-   position: relative;
-}
-#LayoutGrid7 > .row > .col-1 {
-   float: left;
-}
-#LayoutGrid7 > .row > .col-1 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-   width: 100%;
-}
-#LayoutGrid7:before,
-#LayoutGrid7:after,
-#LayoutGrid7 .row:before,
-#LayoutGrid7 .row:after {
-   content: " ";
-   display: table;
-}
-#LayoutGrid7:after,
-#LayoutGrid7 .row:after {
-   clear: both;
-}
-@media (max-width: 0px) {
-#LayoutGrid7 > .row > .col-1 {
    float: none;
    width: 100%  !important;
 }
@@ -816,9 +726,9 @@ select:focus {
 }
 #wb_Text2 {
    display: inline-block;
-   height: 18px;
+   height: 16px;
    margin: 0;
-   width: 179px;
+   width: 134px;
 }
 #wb_Text6 {
    background-color: transparent;
@@ -837,66 +747,6 @@ select:focus {
    height: 36px;
    margin: 0px 0px 10px 0px;
    width: 159px;
-}
-#wb_LayoutGrid9 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   clear: both;
-   display: table;
-   margin: 0;
-   position: relative;
-   table-layout: fixed;
-   text-align: center;
-   width: 100%;
-}
-#LayoutGrid9 {
-   box-sizing: border-box;
-   margin-left: auto;
-   margin-right: auto;
-   max-width: 482px;
-   padding: 0;
-}
-#LayoutGrid9 > .row {
-   margin-left: 0;
-   margin-right: 0;
-}
-#LayoutGrid9 > .row > .col-1 {
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-left: 0px;
-   padding-right: 0px;
-   position: relative;
-}
-#LayoutGrid9 > .row > .col-1 {
-   float: left;
-}
-#LayoutGrid9 > .row > .col-1 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-   width: 100%;
-}
-#LayoutGrid9:before,
-#LayoutGrid9:after,
-#LayoutGrid9 .row:before,
-#LayoutGrid9 .row:after {
-   content: " ";
-   display: table;
-}
-#LayoutGrid9:after,
-#LayoutGrid9 .row:after {
-   clear: both;
-}
-@media (max-width: 0px) {
-#LayoutGrid9 > .row > .col-1 {
-   float: none;
-   width: 100%  !important;
-}
 }
 #wb_LayoutGrid10 {
    background-color: transparent;
@@ -956,4 +806,79 @@ select:focus {
    float: none;
    width: 100%  !important;
 }
+}
+#wb_LayoutGrid7 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   clear: both;
+   display: table;
+   margin: 0;
+   position: relative;
+   table-layout: fixed;
+   text-align: center;
+   width: 100%;
+}
+#LayoutGrid7 {
+   box-sizing: border-box;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 373px;
+   padding: 0;
+}
+#LayoutGrid7 > .row {
+   margin-left: 0;
+   margin-right: 0;
+}
+#LayoutGrid7 > .row > .col-1 {
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-left: 0px;
+   padding-right: 0px;
+   position: relative;
+}
+#LayoutGrid7 > .row > .col-1 {
+   float: left;
+}
+#LayoutGrid7 > .row > .col-1 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+   width: 100%;
+}
+#LayoutGrid7:before,
+#LayoutGrid7:after,
+#LayoutGrid7 .row:before,
+#LayoutGrid7 .row:after {
+   content: " ";
+   display: table;
+}
+#LayoutGrid7:after,
+#LayoutGrid7 .row:after {
+   clear: both;
+}
+@media (max-width: 0px) {
+#LayoutGrid7 > .row > .col-1 {
+   float: none;
+   width: 100%  !important;
+}
+}
+#Button1 {
+   -webkit-appearance: none;
+   background-color: #3370B7;
+   background-image: none;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   margin: 0;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
 }
