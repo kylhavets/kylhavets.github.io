@@ -882,3 +882,7 @@ select:focus {
    padding: 1px 6px 1px 6px;
    text-align: center;
 }
+#Shape1 {
+   border-width: 0;
+   vertical-align: top;
+}
