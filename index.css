@@ -56,7 +56,7 @@ select:focus {
    flex-wrap: wrap;
    margin-left: auto;
    margin-right: auto;
-   max-width: 320px;
+   max-width: 380px;
    padding: 20px 0px 20px 0px;
 }
 #LayoutGrid8 > .col-1 {
@@ -145,7 +145,7 @@ select:focus {
    flex-wrap: wrap;
    margin-left: auto;
    margin-right: auto;
-   max-width: 320px;
+   max-width: 380px;
    padding: 30px 0px 0px 0px;
 }
 #LayoutGrid3 > .col-1 {
@@ -241,7 +241,7 @@ select:focus {
 }
 #wb_Text3 {
    display: inline-block;
-   height: 36px;
+   height: 33px;
    margin: 0px 0px 10px 0px;
    width: 122px;
 }
@@ -259,7 +259,7 @@ select:focus {
 }
 #wb_Text4 {
    display: inline-block;
-   height: 36px;
+   height: 33px;
    margin: 0px 0px 10px 0px;
    width: 110px;
 }
@@ -627,7 +627,7 @@ select:focus {
    border: 0px solid #000000;
    border-radius: 0px;
    margin: 0;
-   padding: 0px 0px 30px 0px;
+   padding: 0px 0px 20px 0px;
    text-align: left;
 }
 #wb_Text1 div {
@@ -644,8 +644,8 @@ select:focus {
    background-color: #5E8CBF;
    background-image: none;
    border: 0px solid #FFD700;
-   border-radius: 4px;
-   color: #000000;
+   border-radius: 2px;
+   color: #FFFFFF;
    font-family: Arial;
    font-size: 17px;
    font-style: normal;
@@ -679,8 +679,7 @@ select:focus {
    margin-right: auto;
    padding: 30px 0px 0px 0px;
 }
-#LayoutGrid2 > .col-1,
-#LayoutGrid2 > .col-2 {
+#LayoutGrid2 > .col-1 {
    box-sizing: border-box;
    font-size: 0px;
    min-height: 1px;
@@ -688,8 +687,7 @@ select:focus {
    padding-right: 0px;
    position: relative;
 }
-#LayoutGrid2 > .col-1,
-#LayoutGrid2 > .col-2 {
+#LayoutGrid2 > .col-1 {
    -webkit-flex: 0 0 auto;
    flex: 0 0 auto;
 }
@@ -714,14 +712,60 @@ select:focus {
    max-width: 100%;
    text-align: left;
 }
-#LayoutGrid2 > .col-2 {
-   -webkit-align-content: flex-start;
-   -webkit-align-items: flex-start;
+@media (max-width: 0px) {
+#LayoutGrid2 > .col-1 {
+   -webkit-flex-basis: 100%  !important;
+   flex-basis: 100%  !important;
+   max-width: 100%  !important;
+}
+}
+#wb_LayoutGrid6 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   clear: both;
+   display: table;
+   margin: 0;
+   position: relative;
+   table-layout: fixed;
+   text-align: center;
+   width: 100%;
+}
+#LayoutGrid6 {
+   -webkit-flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   box-sizing: border-box;
+   display: -webkit-flex;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0;
+}
+#LayoutGrid6 > .col-1,
+#LayoutGrid6 > .col-2 {
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-left: 0px;
+   padding-right: 0px;
+   position: relative;
+}
+#LayoutGrid6 > .col-1,
+#LayoutGrid6 > .col-2 {
+   -webkit-flex: 0 0 auto;
+   flex: 0 0 auto;
+}
+#LayoutGrid6 > .col-1 {
+   -webkit-align-content: center;
+   -webkit-align-items: center;
    -webkit-align-self: stretch;
    -webkit-flex-wrap: wrap;
-   -webkit-justify-content: flex-end;
-   align-content: flex-start;
-   align-items: flex-start;
+   -webkit-justify-content: flex-start;
+   align-content: center;
+   align-items: center;
    align-self: stretch;
    background-color: transparent;
    background-image: none;
@@ -729,13 +773,36 @@ select:focus {
    border-radius: 0px;
    display: -webkit-flex;
    display: flex;
+   flex-basis: 50%;
    flex-wrap: wrap;
-   justify-content: flex-end;
-   text-align: right;
+   justify-content: flex-start;
+   max-width: 50%;
+   text-align: left;
+}
+#LayoutGrid6 > .col-2 {
+   -webkit-align-content: center;
+   -webkit-align-items: center;
+   -webkit-align-self: stretch;
+   -webkit-flex-wrap: wrap;
+   -webkit-justify-content: flex-start;
+   align-content: center;
+   align-items: center;
+   align-self: stretch;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   display: -webkit-flex;
+   display: flex;
+   flex-basis: 50%;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   max-width: 50%;
+   text-align: left;
 }
 @media (max-width: 0px) {
-#LayoutGrid2 > .col-1,
-#LayoutGrid2 > .col-2 {
+#LayoutGrid6 > .col-1,
+#LayoutGrid6 > .col-2 {
    -webkit-flex-basis: 100%  !important;
    flex-basis: 100%  !important;
    max-width: 100%  !important;
