@@ -10,8 +10,8 @@
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,400,700&display=swap" rel="stylesheet">
-<link href="калькулятори.css" rel="stylesheet">
-<link href="index.css" rel="stylesheet">
+<link href="калькулятори.css?v=1" rel="stylesheet">
+<link href="index.css?v=1" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script>   
    $(document).ready(function()
@@ -33,7 +33,7 @@
 </head>
 <body>
    <div id="container">
-      <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:525px;margin:0;border-width:0;z-index:250"></a>
+      <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:116px;top:1052px;margin:0;border-width:0;z-index:250"></a>
    </div>
    <div id="wb_LayoutGrid8">
       <div id="LayoutGrid8">
@@ -62,32 +62,36 @@
             <div id="wb_LayoutGrid4">
                <div id="LayoutGrid4">
                   <div class="col-1">
-                     <div id="wb_LayoutGrid1">
-                        <div id="LayoutGrid1">
-                           <div class="row">
-                              <div class="col-1">
-                                 <div id="wb_Text4">
-                                    <span style="color:#FFFFFF;font-family:'Open Sans';font-size:27px;">число</span>
+                     <div class="col-1-padding">
+                        <div id="wb_LayoutGrid1">
+                           <div id="LayoutGrid1">
+                              <div class="row">
+                                 <div class="col-1">
+                                    <div id="wb_Text4">
+                                       <span style="color:#FFFFFF;font-family:'Open Sans';font-size:27px;">число</span>
+                                    </div>
                                  </div>
-                              </div>
-                              <div class="col-2">
-                                 <input type="text" id="Editbox1" style="display:inline-block;width:114px;height:50px;z-index:4;" name="2" value="" autocomplete="off" autofocus spellcheck="false" placeholder="XXX">
+                                 <div class="col-2">
+                                    <input type="text" id="Editbox1" style="display:inline-block;width:130px;height:50px;z-index:4;" name="2" value="" autocomplete="off" autofocus spellcheck="false" placeholder="XXX">
+                                 </div>
                               </div>
                            </div>
                         </div>
                      </div>
                   </div>
                   <div class="col-2">
-                     <div id="wb_LayoutGrid5">
-                        <div id="LayoutGrid5">
-                           <div class="row">
-                              <div class="col-1">
-                                 <div id="wb_Text3">
-                                    <span style="color:#FFFFFF;font-family:'Open Sans';font-size:27px;">&#1086;&#1090; &#1095;&#1080;&#1089;&#1083;а</span>
+                     <div class="col-2-padding">
+                        <div id="wb_LayoutGrid5">
+                           <div id="LayoutGrid5">
+                              <div class="row">
+                                 <div class="col-1">
+                                    <div id="wb_Text3">
+                                       <span style="color:#FFFFFF;font-family:'Open Sans';font-size:27px;">&#1086;&#1090; &#1095;&#1080;&#1089;&#1083;а</span>
+                                    </div>
                                  </div>
-                              </div>
-                              <div class="col-2">
-                                 <input type="text" id="Editbox2" style="display:inline-block;width:114px;height:50px;z-index:7;" name="Editbox1" value="" autocomplete="off" spellcheck="false" placeholder="YYY">
+                                 <div class="col-2">
+                                    <input type="text" id="Editbox2" style="display:inline-block;width:130px;height:50px;z-index:7;" name="Editbox1" value="" autocomplete="off" spellcheck="false" placeholder="YYY">
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -95,10 +99,19 @@
                   </div>
                </div>
             </div>
-            <div id="wb_Text6">
-               <span style="color:#FFFFFF;font-family:'Open Sans';font-size:27px;">Результат:</span>
+            <input type="submit" id="Button1" name="" value="Вычислить" style="display:inline-block;width:290px;height:50px;z-index:13;">
+            <div id="wb_LayoutGrid2">
+               <div id="LayoutGrid2">
+                  <div class="col-1">
+                     <div id="wb_Text6">
+                        <span style="color:#FFFFFF;font-family:'Open Sans';font-size:27px;">Результат:</span>
+                     </div>
+                     <input type="text" id="Resultat" style="display:block;width:100%;height:59px;z-index:10;" name="Resultat" value="" readonly autocomplete="off" spellcheck="false">
+                  </div>
+                  <div class="col-2">
+                  </div>
+               </div>
             </div>
-            <input type="text" id="Resultat" style="display:inline-block;width:244px;height:59px;z-index:12;" name="Resultat" value="" readonly autocomplete="off" spellcheck="false">
          </div>
       </div>
    </div>
