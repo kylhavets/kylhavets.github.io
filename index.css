@@ -225,7 +225,7 @@ select:focus {
    line-height: 51px;
    margin: 0;
    padding: 4px 4px 4px 0px;
-   text-align: left;
+   text-align: right;
 }
 #wb_Text3 {
    background-color: transparent;
@@ -538,24 +538,6 @@ select:focus {
    margin: 0;
    width: 134px;
 }
-#wb_Text6 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   margin: 0;
-   padding: 0;
-   text-align: left;
-}
-#wb_Text6 div {
-   text-align: left;
-}
-#wb_Text6 {
-   box-sizing: border-box;
-   display: block;
-   margin: 0;
-   width: 100%;
-}
 #wb_LayoutGrid7 {
    background-color: transparent;
    background-image: none;
@@ -779,10 +761,10 @@ select:focus {
    border-radius: 0px;
    display: -webkit-flex;
    display: flex;
-   flex-basis: 50%;
+   flex-basis: 100%;
    flex-wrap: wrap;
    justify-content: flex-start;
-   max-width: 50%;
+   max-width: 100%;
    text-align: left;
 }
 #LayoutGrid6 > .col-2 {
@@ -800,10 +782,8 @@ select:focus {
    border-radius: 0px;
    display: -webkit-flex;
    display: flex;
-   flex-basis: 50%;
    flex-wrap: wrap;
    justify-content: flex-start;
-   max-width: 50%;
    text-align: left;
 }
 @media (max-width: 0px) {
