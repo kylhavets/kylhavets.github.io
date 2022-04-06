@@ -219,7 +219,7 @@ select:focus {
    box-sizing: border-box;
    color: #FFD700;
    font-family: "Open Sans";
-   font-size: 37px;
+   font-size: 35px;
    font-style: normal;
    font-weight: 600;
    line-height: 51px;
@@ -801,7 +801,7 @@ select:focus {
    border-radius: 0px;
    box-sizing: border-box;
    margin: 0;
-   padding: 0px 0px 25px 0px;
+   padding: 0px 0px 20px 0px;
    text-align: left;
    vertical-align: top;
 }
